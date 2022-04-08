@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Apps\\beyout\\build\\path_provider_android\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\883da76ac264f9b8dacbc25f23566bc8\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+    }
+]
