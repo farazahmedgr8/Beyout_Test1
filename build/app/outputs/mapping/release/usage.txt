@@ -1163,8 +1163,8 @@ com.google.common.collect.MultimapBuilder$LinkedHashSetSupplier
 com.google.common.cache.LocalCache$Strength$1
 com.google.common.collect.ArrayTable$ArrayMap$1
 com.google.common.collect.Multimaps$CustomSetMultimap
-androidx.lifecycle.ComputableLiveData$3
 com.google.common.collect.TreeRangeSet$RangesByUpperBound$2
+androidx.lifecycle.ComputableLiveData$3
 com.google.common.eventbus.Subscribe
 kotlin.ranges.RangesKt__RangesKt
 androidx.core.graphics.drawable.RoundedBitmapDrawable21
@@ -3456,8 +3456,8 @@ kotlin.jvm.functions.Function15
 com.google.common.collect.StandardTable$Column$EntrySetIterator
 com.google.common.util.concurrent.AggregateFutureState$SafeAtomicHelper
 com.tekartik.sqflite.R$layout
-androidx.core.content.SharedPreferencesCompat$EditorCompat
 androidx.core.app.ShareCompat
+androidx.core.content.SharedPreferencesCompat$EditorCompat
 com.google.common.escape.UnicodeEscaper
 com.google.common.collect.ForwardingNavigableMap
 com.google.common.io.FileWriteMode
@@ -4447,8 +4447,8 @@ com.google.common.base.CharMatcher
 com.google.common.primitives.ImmutableIntArray$1
 com.google.common.reflect.Element
 kotlin.sequences.TakeWhileSequence$iterator$1
-kotlin.internal.PureReifiable
 kotlin.jvm.internal.CollectionToArray
+kotlin.internal.PureReifiable
 kotlin.reflect.KProperty0$Getter
 io.flutter.view.FlutterView$2
 com.google.common.base.ExtraObjectsMethodsForWeb

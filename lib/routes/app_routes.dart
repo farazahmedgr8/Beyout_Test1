@@ -21,8 +21,12 @@ import 'package:faraz_s_application/presentation/home_individual_screen/binding/
 import 'package:faraz_s_application/presentation/app_navigation_screen/app_navigation_screen.dart';
 import 'package:faraz_s_application/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 
 class AppRoutes {
+  String datetime = DateTime.now().toString();
+
+
   static String splashScreen = '/splash_screen';
 
   static String signInScreen = '/sign_in_screen';
@@ -115,6 +119,7 @@ class AppRoutes {
       name: homeIndividualScreen,
       page: () => HomeIndividualScreen(),
       bindings: [
+
         HomeIndividualBinding(),
       ],
     ),

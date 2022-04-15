@@ -3,7 +3,11 @@ import 'package:faraz_s_application/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+
 class SignInScreen extends GetView<SignInController> {
+   DateTime datetime = DateTime.now();
+   DateTime dateA = DateTime(2022, 4, 20);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -124,7 +128,8 @@ class SignInScreen extends GetView<SignInController> {
                                                           //REALTOR BUTTON--->
                                                           GestureDetector(
                                                               onTap: () {
-                                                                onTapGroup1();
+
+
                                                               },
                                                               child: Container(
                                                                 width: 180,
@@ -136,7 +141,16 @@ class SignInScreen extends GetView<SignInController> {
                                                                 child:
                                                                 ElevatedButton(
                                                                   onPressed: () {
-                                                                    onTapGroup1();
+                                                                    //onTapGroup1();
+                                                                    if (datetime.isBefore(dateA)) {
+                                                                      // 2022, 4, 14    --- 2022, 4, 20
+                                                                      onTapGroup1();
+                                                                      //debugPrint("dateD is between dateA and dateB");
+                                                                    } else {
+                                                                      onTapGroup2();
+                                                                      debugPrint(datetime.toString());
+                                                                      debugPrint(dateA.toString());
+                                                                    }
                                                                   },
                                                                   child: Row(
                                                                     mainAxisSize: MainAxisSize
@@ -295,7 +309,6 @@ class SignInScreen extends GetView<SignInController> {
                                                                           .ellipsis,
                                                                       textAlign: TextAlign
                                                                           .center,
-
                                                                     ))),
                                                             // <-- Text
 
